@@ -19,7 +19,7 @@ confd supports the following backends:
 
 ### Add keys
 
-This guide assumes you have a working [etcd](https://github.com/coreos/etcd#getting-started), or [consul](http://www.consul.io/intro/getting-started/install.html) server up and running and the ability to add new keys.
+This guide assumes you have a working [etcd](https://go.etcd.io/etcd/v3#getting-started), or [consul](http://www.consul.io/intro/getting-started/install.html) server up and running and the ability to add new keys.
 
 #### etcd
 
