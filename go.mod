@@ -20,13 +20,14 @@ require (
 	github.com/hashicorp/vault/api v1.0.4
 	github.com/jonboulle/clockwork v0.2.0 // indirect
 	github.com/kelseyhightower/memkv v0.1.1
+	github.com/nacos-group/nacos-sdk-go v1.0.0
 	github.com/prometheus/client_golang v1.7.1 // indirect
 	github.com/samuel/go-zookeeper v0.0.0-20200724154423-2164a8ac840e
+	github.com/satori/go.uuid v1.2.0
 	github.com/sirupsen/logrus v1.6.0
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20200427203606-3cfed13b9966 // indirect
 	github.com/xordataexchange/crypt v0.0.2
 	go.etcd.io/etcd v3.3.25+incompatible
-	go.uber.org/zap v1.15.0 // indirect
 	golang.org/x/net v0.0.0-20200822124328-c89045814202
 	gopkg.in/yaml.v2 v2.3.0
 	sigs.k8s.io/yaml v1.2.0 // indirect
