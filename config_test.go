@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/kelseyhightower/confd/log"
-	"github.com/satori/go.uuid"
+	uuid "github.com/satori/go.uuid"
 )
 
 func TestInitConfigDefaultConfig(t *testing.T) {
@@ -32,11 +32,6 @@ func TestInitConfigDefaultConfig(t *testing.T) {
 	if !reflect.DeepEqual(want, config) {
 		t.Errorf("initConfig() = %v, want %v", config, want)
 	}
-	u2, err1 := uuid.NewV4()
-	if err1 != nil {
-		println(`生成一个UUID v4时出现错误：`)
-		panic(err1)
-	}
-	println(`生成的UUID v4：`)
-	println(u2.String())
+	u2 := uuid.NewV4()
+	println(`生成的UUID v4：`, u2.String())
 }
